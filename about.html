@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20;
+}
+
+.about-section {
+  background: linear-gradient(to right,#6278d0, #89efff );
+  padding: 20px;
+  text-align: left;
+  background-color: #474e5d;
+  color: white;
+}
+
+.team-section {
+  padding: 8px;
+  height: 50px;
+  text-align: left;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 0 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  background: linear-gradient(to right, rgba(137, 239, 255, 0.2), rgba(98, 120, 208, 0.7));
+  
+  padding: 0 50px;
+  text-align: center; /* Align text in the center */
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; /* Adjust as needed */
+}
+
+.container h2 {
+  height: 10px;
+  text-align: center; /* Align names in the center */
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    height: 20px;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Our website helps you to make your resume.<br> One person makes sure everything works right, and another makes it look nice. <br>Together, they make it easy for you to build a great resume that helps you get a job.</p>
+</div>
+
+<div class="team-section">
+  <h2 style="align-items: center;"></h2>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <img src="img_s.png" alt="Sushant Pagar">
+        <h2>Sushant Pagar</h2>
+        <p class="title">Front-end and back-end developer</p>
+        <p>Sushant Pagar is our backend developer, specializing in the technical aspects of our resume builder website. With expertise in HTML, CSS, JavaScript, and PHP, Sushant ensures that all the coding behind the scenes runs smoothly. His dedication to perfection and attention to detail guarantee a seamless user experience, allowing you to focus on creating your perfect resume effortlessly.</p>
+        <p>sushantpagar28@gmail.com | +91 9970644086</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <img src="img_m.png" alt="Mayuri Ambilke">
+        <h2>Mayuri Ambilke</h2>
+        <p class="title">Front-end and back-end developer</p>
+        <p>Mayuri Ambilke is our frontend developer, responsible for the visible parts of our resume builder website. Using her skills in HTML, CSS, and JavaScript, Mayuri creates the interface that you interact with. Her creativity and eye for design ensure that the platform is not only functional but also visually appealing. With Mayuri's expertise, we strive to make resume building a user-friendly.</p>
+        <p>mayuriambilke22@gmail.com | +91 7378873991</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
